@@ -4,6 +4,11 @@ title: "Links"
 permalink: /links/
 ---
 <figure>
+	<a href="https://isri.cs.cmu.edu">Institute for Software Research, Carnegie Mellon University</a> 
+	<img src="/images/links/isr_logo_308_r2.png">
+</figure>
+
+<figure>
 	<a href="https://midas.umich.edu/">Michigan Institute for Data Science, University of Michigan</a> 
 	<img src="/images/links/MIDASsignature-acronym-white-2.png">
 </figure>
