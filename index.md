@@ -5,7 +5,9 @@ permalink: /
 ---
 ![Me](/images/profile/my_profile_pic_office.jpg){:class="img-responsive"}{:height="800px" width="600px"}
 
-Welcome to my website. I am a tenure-track assistant professor in the [Software and Societal Systems Department](https://s3d.cmu.edu) at Carnegie Mellon University's [School of Computer Science](https://www.cs.cmu.edu).  
+Welcome to my website. I am a tenure-track assistant professor in the [Software and Societal Systems Department](https://s3d.cmu.edu) at Carnegie Mellon University's [School of Computer Science](https://www.cs.cmu.edu).
+
+I am currently in search of a curious student and collaborator interested in the areas of online social networks and computational social science. If you are interested in pursuing a PhD at CMU, check out the [Societal Computing PhD program](https://sc.cs.cmu.edu/).
 
 
 {::comment}
