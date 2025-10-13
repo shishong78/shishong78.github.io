@@ -6,11 +6,14 @@ main:
     url: /about/
   - title: "Research"
     url: /research/
+  - title: "Teaching"
+    url: /teaching/
   - title: "C.V."
-    url: "https://www.dropbox.com/s/1h1c3p09zjkckdz/Patrick_Park_CV_Sept2021.pdf?dl=0"
+    url: /CV/
   - title: "Links"
     url: /links/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  # "https://www.dropbox.com/s/1h1c3p09zjkckdz/Patrick_Park_CV_Sept2021.pdf?dl=0"

@@ -16,4 +16,4 @@ In this work, we propose a classification method for group vs. individual accoun
 
 This work was published in *Lecture Notes in Computer Science* and won the  Best Paper Award at the International Conference on Social Computing, Behavioral-Cultural Modeling, and Prediction, Washington D.C.
 
-article [link](https://link.springer.com/chapter/10.1007%2F978-3-319-16268-3_17)
+article [*SBP-BRiMS*](https://link.springer.com/chapter/10.1007%2F978-3-319-16268-3_17)

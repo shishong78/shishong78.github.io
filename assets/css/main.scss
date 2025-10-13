@@ -1,8 +1,142 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-
 @charset "utf-8";
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Make the entire feature item container center its children
+.feature__item--left {
+  align-items: center !important;
+}
+
+// Make both the image container and text container equal height
+.feature__item--left .archive__item {
+  display: flex !important;
+  align-items: center !important;
+}
+
+// Ensure text body takes up space and centers content
+.archive__item-body {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  min-height: 100% !important;
+}
+
+// Image 1: Opinion Polarization
+.feature__wrapper:nth-of-type(1) .archive__item-teaser {
+  max-width: 600px !important;
+}
+
+// Image 2: Origins of Bridging Ties
+.feature__wrapper:nth-of-type(2) .archive__item-teaser {
+  max-width: 390px !important;
+}
+
+// Image 3: Higher-Order Interactions
+.feature__wrapper:nth-of-type(3) .archive__item-teaser {
+  max-width: 390px !important;
+}
+
+// Image 4: Scientific Collaboration
+.feature__wrapper:nth-of-type(4) .feature__item--left {
+  flex-basis: 100% !important;
+  max-width: 100% !important;
+}
+
+.feature__wrapper:nth-of-type(4) .archive__item {
+  max-width: 100% !important;
+}
+
+.feature__wrapper:nth-of-type(4) .archive__item-teaser {
+  max-width: 750px !important;
+}
+
+// Image 5: Mesh of Civilizations
+.feature__wrapper:nth-of-type(5) .archive__item-teaser {
+  max-width: 350px !important;
+}
+
+// Image 6: Status and Gift Exchange
+.feature__wrapper:nth-of-type(6) .archive__item-teaser {
+  max-width: 350px !important;
+}
+
+// Image 7: Network-Based Classification
+.feature__wrapper:nth-of-type(7) .archive__item-teaser {
+  max-width: 350px !important;
+}
+
+// ---
+// # Only the main Sass file needs front matter (the dashes are enough)
+// ---
+// @charset "utf-8";
+// @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+// @import "minimal-mistakes"; // main partials
+
+// // Target images by position within feature wrappers
+// .feature__wrapper:nth-of-type(1) .archive__item-teaser img {
+//   max-width: 300px !important;  // Opinion Polarization
+// }
+
+// .feature__wrapper:nth-of-type(2) .archive__item-teaser img {
+//   max-width: 320px !important;  // Origins of Bridging Ties
+// }
+
+// .feature__wrapper:nth-of-type(3) .archive__item-teaser img {
+//   max-width: 500px !important;  // Higher-Order Interactions (larger)
+// }
+
+// .feature__wrapper:nth-of-type(4) .archive__item-teaser img {
+//   max-width: 750px !important;  // Scientific Collaboration (larger)
+// }
+
+// .feature__wrapper:nth-of-type(5) .archive__item-teaser img {
+//   max-width: 300px !important;  // Mesh of Civilizations
+// }
+
+// .feature__wrapper:nth-of-type(6) .archive__item-teaser img {
+//   max-width: 300px !important;  // Status and Gift Exchange
+// }
+
+// .feature__wrapper:nth-of-type(7) .archive__item-teaser img {
+//   max-width: 300px !important;  // Network-Based Classification
+// }
+
+// ---
+// # Only the main Sass file needs front matter (the dashes are enough)
+// ---
+// @charset "utf-8";
+// @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+// @import "minimal-mistakes"; // main partials
+
+// // Custom image sizing for specific feature rows
+// #feature_row4 .archive__item-teaser img {
+//   max-width: 450px;  // Higher-Order Interactions (larger)
+// }
+
+// #feature_row5 .archive__item-teaser img {
+//   max-width: 2500px;  // Scientific Collaboration (larger)
+// }
+
+// #feature_row2 .archive__item-teaser img {
+//   max-width: 280px;  // Opinion Polarization (smaller)
+// }
+
+// #feature_row3 .archive__item-teaser img {
+//   max-width: 300px;  // Origins of Bridging Ties
+// }
+
+// #feature_row6 .archive__item-teaser img {
+//   max-width: 280px;  // Mesh of Civilizations
+// }
+
+// #feature_row7 .archive__item-teaser img {
+//   max-width: 280px;  // Status and Gift Exchange
+// }
+
+// #feature_row8 .archive__item-teaser img {
+//   max-width: 280px;  // Network-Based Classification
+// }
+

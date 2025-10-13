@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "d
 locale                   : "en-US"
 title                    : "Patrick S. Park"
 title_separator          : "-"
-subtitle                 : "Assistant Professor, School of Computer Science at Carnegie Mellon University" # site tagline that appears below site title in masthead
+subtitle                 : "Computational Social Scientist" # site tagline that appears below site title in masthead
 name                     : "Patrick S. Park"
 description              : "Welcome to my website!"
 url                      : https://shishong78.github.io # the base hostname & protocol for your site
@@ -109,8 +109,8 @@ analytics:
 author:
   name             : #"Patrick Park"
   avatar           : #"/images/profile/MIDASsignature-acronym-white-1.png"
-  bio              : "computational social scientist."
-  location         : "Pittsburgh, PA, USA"
+  bio              : "Assistant Professor @ Carnegie Mellon University"
+  location         : #"Pittsburgh, PA, USA"
   email            : "patpark@cmu.edu"
   links:
     - label: "Email"
@@ -165,6 +165,7 @@ footer:
 include:
   - .htaccess
   - research/
+  - docs/
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -308,8 +309,8 @@ defaults:
     values:
       layout: single
 
-
-      
+sass:
+  quiet_deps: true
       
       
       
