@@ -34,4 +34,4 @@ Here is a [short video](https://www.dropbox.com/s/t847u2lrwxsbt5e/scipak_strengt
 ## Dataset
 For this study, I collected 158 million Twitter user accounts between 2013 and 2014 and constructed bidirected @mention networks in eight countries. The edgelists for these eight countries, with @mention frequency as weights, can be found in [Harvard Dataverse](https://doi.org/10.7910/DVN/NPRNCC). -->
 
-Article link: [working paper](/assets/docs/xxx.pdf)
+Article link: [working paper](/assets/docs/center_cannot_hold_v22_4_public.pdf)
