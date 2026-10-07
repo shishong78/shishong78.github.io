@@ -50,7 +50,7 @@ feature_row5:
     btn_class: "btn--primary"
     btn_label: "Read More"
 feature_row6:
-  - image_path: /images/mesh-of-civilizations/pone-0122543.png 
+  - image_path: /images/mesh-of-civilizations/pone-0122543.PNG
     title: "Mesh of Civilizations"
     excerpt: "Broad cultural divides continue to structure international communication in the digital age"
     url: "/research/mesh-of-civilizations/"
@@ -72,6 +72,13 @@ feature_row8:
     url: "/research/group-account-classification/"
     btn_class: "btn--primary"
     btn_label: "Read More"
+feature_row9:
+  - image_path: /images/oss-collaboration/github_innovation_graph.png
+    title: "Cross-National Collaboration in Open-Source Software"
+    excerpt: "When one lifts away the predominant US-based software projects in Github, we see the lasting traces of deep-seated culture, geopolitics, and colonial history in cross-national collaboration among software developers on Github.<br><br>This fun collaboration grew out of a network visualization assignment that my students completed in my [network analysis course](https://github.com/bvasiles/networks) (co-instructed with Bogdan Vasilescu)."
+    url: "/research/oss-collaboration/"
+    btn_class: "btn--primary"
+    btn_label: "Read More"
 ---
 
 <style>
@@ -81,10 +88,23 @@ feature_row8:
   padding: 0.3rem 0.7rem; /* shrink padding */
   border-radius: 4px;   /* optional: rounder edges */
 }
+.archive__item-teaser img[src*="github_innovation_graph"] { width: 75%; }
+/* uniform image column so all descriptions start at the same x-position */
+@media (min-width: 37.5em) {
+  .feature__wrapper .feature__item--left .archive__item-teaser {
+    flex: 0 0 42% !important; width: 42% !important; max-width: 42% !important;
+  }
+  .feature__item--left .archive__item-body {
+    flex: 1 1 auto !important; width: auto !important; float: none !important;
+    padding-left: 3% !important;
+  }
+}
+
 </style>
 
 
 # Research
+{% include feature_row id="feature_row9" type="left" %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
 {% include feature_row id="feature_row4" type="left" %}
@@ -134,7 +154,7 @@ feature_row:
     url: "/research/network-wormholes/"
     btn_class: "btn--primary"
     btn_label: "Read More"
-  - image_path: /images/mesh-of-civilizations/pone-0122543-1.png
+  - image_path: /images/mesh-of-civilizations/pone-0122543-1.PNG
     alt: "customizable"
     title: "Mesh of Civilizations"
     excerpt: "Broad cultural divides continue to structure international communication in the digital age"
